@@ -1,0 +1,11 @@
+There are some data in “raw_data” sheet. Each row represents contemporaneous data of a solution (i.e. both valid and invalid solutions) for a given case. There are three different cases. Each case has number of solutions. The solution ID numbers are presented in Column A (2_0…..2_69 are solutions for case 2, 3_0…..3_44 are solutions for case 3 and 4_0……4_246 are solutions for case 4). If the value in column L is positive then the solution is valid otherwise invalid. There can be multiple solutions for each case. A solution will be the best solution for a case if the following two conditions are fulfilled:
+1. The solution is a valid solution
+2. The solution is the cheapest solution. The cost for each solution is presented in column Q .
+ 
+Your tasks are as follows:
+1. Develop a GUI
+2. Present all the data in tabular format in GUI
+3. Sort the data to have all the valid solutions for each case and present in tabular format in GUI
+4.Sort out the best solutions for each case and present in tabular format in GUI
+ 
+Please make your assumption and mention it in the answer pack (coding/docs/presentation). As a suggestion, you can consider few random numbers as positive values and the rest as negative values for each case/scenario.
